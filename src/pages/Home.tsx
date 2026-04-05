@@ -71,7 +71,9 @@ const Home = ({ darkMode, setDarkMode }: { darkMode: boolean, setDarkMode: (v: b
   return (
     <>
       <nav className="animate-on-scroll fade-up no-print">
-        <div>MÜNAZARA - {new Date().getFullYear()}</div>
+        <div style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.2rem', fontWeight: 700, letterSpacing: '0.1em' }}>
+          PARADİGMA.
+        </div>
         <div className="nav-links">
           <a href="#argumanlar">Argümanlar</a>
           <a href="#curutmeler">Çürütmeler</a>
