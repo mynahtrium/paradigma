@@ -72,7 +72,7 @@ const Home = ({ darkMode, setDarkMode }: { darkMode: boolean, setDarkMode: (v: b
     <>
       <nav className="animate-on-scroll fade-up no-print">
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', fontFamily: "'Playfair Display', serif", fontSize: '1.2rem', fontWeight: 700, letterSpacing: '0.1em' }}>
-          <img src="/logo.jpg" alt="Paradigma Logo" style={{ width: '28px', height: '28px', objectFit: 'cover', borderRadius: '4px' }} />
+          <img src="/logo.png" alt="Paradigma Logo" style={{ width: '28px', height: '28px', objectFit: 'cover', borderRadius: '4px' }} />
           PARADİGMA.
         </div>
         <div className="nav-links">
